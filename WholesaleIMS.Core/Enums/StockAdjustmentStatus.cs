@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace WholesaleIMS.Core.Enums
 {
-    public enum SalesOrderStatus
+    public enum StockAdjustmentStatus
     {
-        Draft = 1,
-        Pending = 2,
-        Confirmed = 3, // stock deducted
-        Cancelled = 4
+        Draft,
+        Confirmed
     }
 }

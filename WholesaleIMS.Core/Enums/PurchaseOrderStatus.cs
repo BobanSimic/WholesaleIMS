@@ -9,7 +9,7 @@ namespace WholesaleIMS.Core.Enums
     public enum PurchaseOrderStatus
     {
         Draft = 1,
-        Received = 2,      // Quantities recorded, waiting confirmation
+        Pending = 2,      // Quantities recorded, waiting confirmation
         Confirmed = 3,     // Stock officially updated
         Cancelled = 4
     }

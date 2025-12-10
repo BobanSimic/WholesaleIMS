@@ -30,5 +30,7 @@ namespace WholesaleIMS.Core.Entities
 
         public string? Note { get; set; }
 
+        public Item Item { get; set; }
+
     }
 }
